@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bauprocheck/zeiterfassung",
+items:[
+{foreignColumnName:"projekte_id",primaryDataProviderID:"projekte_id",typeid:23,uuid:"A3EFF0C9-D5D1-4AC9-9E47-397F39FD40C4"}
+],
+joinType:1,
+name:"inmemds_to_zeiterfassung",
+primaryDataSource:"mem:InMemDS",
+typeid:22,
+uuid:"701CE7FD-B210-4D93-AF66-3BC029728847"

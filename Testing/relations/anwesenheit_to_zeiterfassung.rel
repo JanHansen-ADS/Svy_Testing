@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/bauprocheck/zeiterfassung",
+items:[
+{foreignColumnName:"anwesenheit_id",primaryDataProviderID:"anwesenheit_id",typeid:23,uuid:"18E0B9DA-AD3B-4CED-A90C-10AD85EB0D1C"}
+],
+joinType:1,
+name:"anwesenheit_to_zeiterfassung",
+primaryDataSource:"db:/bauprocheck/anwesenheit",
+typeid:22,
+uuid:"36504BC6-E190-4968-B038-9F3E7EF04336"
