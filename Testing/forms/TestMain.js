@@ -20,6 +20,7 @@ function fill() {
 		var memrecord = fsmem.getRecord(fsmem.newRecord());
 		memrecord.projekte_id = selectawRecord.projekte_id;
 	}
+	application.output('Filled')
 }
 
 /**
